@@ -31,7 +31,7 @@ const listaUsuarios = [
     },
 ];
 
-const buscarUsuario = function (listaUsuarios: { nome: string, idade: number, status: boolean }[], nomeUsuario: string) {
+const buscarUsuario = function (listaUsuarios: { nome: string, idade: number, status: boolean }[], nomeUsuario: string): object[] {
     const listaUsuariosEncontrados: object[] = [];
 
 
